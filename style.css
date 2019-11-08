@@ -1,0 +1,84 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+
+    background-image:linear-gradient(rgba(0,0,0,0.25),rgba(0,0,0,0.25)),url(background.jpeg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+}
+
+.main-nav{
+    float: right;
+    list-style-type: none;
+    margin-top: 30px;
+}
+
+.main-nav li{
+    display: inline-block;
+}
+
+.main-nav li a{
+    color: white;
+    padding: 5px 20px;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+}
+
+.main-nav li.active a
+{
+    border: 1px solid white;
+}
+
+.main-nav li a:hover
+{
+    border: 1px solid white;
+}
+
+.row{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.message{
+    position: absolute;
+    width: 1200px;
+    margin-left: 0px;
+    margin-right: 0px;
+    color: white;
+    text-transform: uppercase;
+    text-size-adjust: 70px;
+    text-align: center;
+    margin-top: 200px;
+}
+
+
+.button{
+    margin-top: 275px;
+    text-align: center;
+}
+
+.btn-one{
+    border: 1px white solid;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    margin-right: 5px;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+.logo{
+    text-align: left;
+    width: 1200px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-size-adjust: 70px;
+}
